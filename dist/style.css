@@ -1,0 +1,140 @@
+#content {
+    position: absolute;
+    background-color: rgba(217, 255, 0, 0.637);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+nav {
+    position: fixed;
+    width: 100%;
+    height: 150px;
+    background-color: cornflowerblue;
+    left: 0;
+    top: 0;
+}
+nav img {
+    position: absolute;
+    height: 100%;
+    /* width: min(50%, 200px); */
+    width: 10%;
+    left: 2%;
+}
+nav h1 {
+    position: absolute;
+    left: 11%;
+    color: rgb(0, 0, 0);
+    font-size: 2.8em;
+    
+}
+.menuDiv {
+    position: absolute;
+    background-color: rgb(0, 139, 139);
+    width: 50%;
+    height: 200px;
+    right: 0px;
+    height: 100%;
+}
+.menuTab {
+    position: absolute;
+    height: 100%;
+    width: 25%;
+    background-color: darkorange;
+    left: 0;
+}
+.menuTab button {
+    height: 100%;
+    width: 100%;
+    background-color: darkorange;
+    border: none;
+    font-size: 2.5em;
+}
+.locationTab {
+    position: absolute;
+    height: 100%;
+    width: 25%;
+    background-color: rgb(255, 230, 0);
+    left: 25%;
+}
+.locationTab button {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 230, 0);
+    border: none;
+    font-size: 2.5em;
+}
+.aboutTab {
+    position: absolute;
+    height: 100%;
+    width: 25%;
+    background-color: rgb(255, 0, 221);
+    right: 25%;
+}
+.aboutTab button {
+    height: 100%;
+    width: 100%;
+    background-color:rgb(255, 0, 221);
+    border: none;
+    font-size: 2.5em;
+}
+.contactTab {
+    position: absolute;
+    height: 100%;
+    width: 25%;
+    background-color: rgb(255, 0, 0);
+    right: 0;
+}
+.contactTab button {
+    height: 100%;
+    width: 100%;
+    background-color:rgb(255, 0, 0);
+    border: none;
+    font-size: 2.5em;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    position: absolute;
+    top: 22.5%;
+    left: 15%;
+    width: 70%;
+    height: 70%;
+}
+.menuCon{
+    background-color: fuchsia;
+}
+.locationCon {
+    background-color: orangered;
+}
+.aboutCon {
+    background-color: paleturquoise;
+}
+.contactCon {
+    background-color: rgb(255, 230, 0);
+}
+.startCon {
+    background-color: rosybrown;
+}
+
+
+.imageButtonDiv {
+    position: absolute;
+    height: 100%;
+    width: 190px;
+    left: 40px;
+    z-index: 1;
+}
+.imageButtonDiv button {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    z-index: 1;
+}
+/* top: 50%;
+    transform: translateY(-50%); */
