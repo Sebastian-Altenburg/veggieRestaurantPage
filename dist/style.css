@@ -9,8 +9,8 @@
 nav {
     position: fixed;
     width: 100%;
-    height: 150px;
-    background-color: cornflowerblue;
+    height: 10%;
+    background-color: white;
     left: 0;
     top: 0;
 }
@@ -21,76 +21,101 @@ nav img {
     width: 10%;
     left: 2%;
 }
-nav h1 {
+.headLine {
     position: absolute;
-    left: 11%;
-    color: rgb(0, 0, 0);
-    font-size: 2.8em;
-    
+    background-color: rgb(243, 243, 243);
+    left: 18%;
+    width: 15%;
+    height: 100%;
 }
+.headLine h1 {
+    position: absolute;
+    color: black;
+    font-size: 2.5em;
+    top: 15%;
+    margin: 0;
+    left: 15%;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.headLine p {
+    position: absolute;
+    color: black;
+    bottom: 15%;
+    margin: 0;
+    left: 18%;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .menuDiv {
     position: absolute;
-    background-color: rgb(0, 139, 139);
     width: 50%;
     height: 200px;
-    right: 0px;
+    right: 10%;
     height: 100%;
 }
 .menuTab {
     position: absolute;
     height: 100%;
     width: 25%;
-    background-color: darkorange;
     left: 0;
 }
 .menuTab button {
     height: 100%;
     width: 100%;
-    background-color: darkorange;
+    background-color: rgb(243, 243, 243);
     border: none;
-    font-size: 2.5em;
+    font-size: 1.8em;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .locationTab {
     position: absolute;
     height: 100%;
     width: 25%;
-    background-color: rgb(255, 230, 0);
     left: 25%;
 }
 .locationTab button {
     height: 100%;
     width: 100%;
-    background-color: rgb(255, 230, 0);
+    background-color: rgb(243, 243, 243);
     border: none;
-    font-size: 2.5em;
+    font-size: 1.8em;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .aboutTab {
     position: absolute;
     height: 100%;
     width: 25%;
-    background-color: rgb(255, 0, 221);
     right: 25%;
+    
 }
 .aboutTab button {
     height: 100%;
     width: 100%;
-    background-color:rgb(255, 0, 221);
+    background-color: rgb(243, 243, 243);
     border: none;
-    font-size: 2.5em;
+    font-size: 1.8em;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .contactTab {
     position: absolute;
     height: 100%;
     width: 25%;
-    background-color: rgb(255, 0, 0);
     right: 0;
+    
 }
 .contactTab button {
     height: 100%;
     width: 100%;
-    background-color:rgb(255, 0, 0);
+    background-color: rgb(243, 243, 243);
     border: none;
-    font-size: 2.5em;
+    font-size: 1.8em;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .hide {
@@ -103,7 +128,9 @@ nav h1 {
     left: 15%;
     width: 70%;
     height: 70%;
+    z-index: 1;
 }
+
 .menuCon{
     background-color: fuchsia;
 }
@@ -116,8 +143,31 @@ nav h1 {
 .contactCon {
     background-color: rgb(255, 230, 0);
 }
-.startCon {
-    background-color: rosybrown;
+.startDiv {
+    background-color: rgba(172, 255, 47, 0);
+}
+.startDiv p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3.0em;
+    font-style: italic;
+    font-weight: bold;
+    position: absolute;
+    left: -11%;
+    top: 35%;
+    line-height: 2em;
+    color: white;
+}
+.startDiv p > span {
+    font-size: 0.6em;
+}
+.startImg {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    filter: grayscale(60%);
+    opacity: 0.9;
 }
 
 

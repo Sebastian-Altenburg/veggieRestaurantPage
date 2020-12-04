@@ -11,9 +11,10 @@ function showMenuContent () {
     aboutCon.classList.remove("show");
     aboutCon.classList.add("hide");
     
-    let startCon = document.querySelector(".startCon");
-    startCon.classList.remove("show");
-    startCon.classList.add("hide");
+    let startDiv = document.querySelector(".startDiv");
+    startDiv.classList.add("hide");
+    startDiv.classList.remove("show");
+        
 
 
 

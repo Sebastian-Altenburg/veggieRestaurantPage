@@ -57,16 +57,37 @@ function initialLoad() {
     menuDiv.appendChild(contactTab);
 
 
-    let headLine = document.createElement("h1");
-    headLine.innerHTML = "Get your freshest Veggies right here!";
+    let headLine = document.createElement("div");
+    headLine.classList.add("headLine");
+
+    let headH1 = document.createElement("h1");
+    headH1.innerHTML = "VegFactory";
+    let headP = document.createElement("p");
+    headP.innerHTML = "Get your freshest Veggies!"
+    
+    headLine.appendChild(headP);
+    headLine.appendChild(headH1);
     navBar.appendChild(headLine);
 
 
 
     /// Content divs for tabs
 
-    let startCon = document.createElement("div");
-    startCon.classList.add("startCon", "show");
+
+    let startImage = document.createElement("img");
+    startImage.setAttribute("src", "/images/veggie-img.jpg");
+    startImage.classList.add("startImg");
+
+    let startDiv = document.createElement("div");
+    startDiv.classList.add("show", "startDiv");
+
+    let startDivText = document.createElement("p");
+    startDivText.innerHTML = 
+    "Over 100 fresh dishes... <br> <span>Ingredients directly from the local area...</span> <br><span>And of course, all vegetarian!</span>";
+    startDiv.appendChild(startDivText);
+
+    
+
 
     let menuCon = document.createElement("div");
     menuCon.classList.add("menuCon", "hide");
@@ -88,7 +109,8 @@ function initialLoad() {
     pageContent.appendChild(locationCon);
     pageContent.appendChild(aboutCon);
     pageContent.appendChild(contactCon);
-    pageContent.appendChild(startCon);
+    pageContent.appendChild(startImage);
+    pageContent.appendChild(startDiv);
 }
 
 

@@ -15,9 +15,10 @@ function startContent () {
 
 
 
-    let startCon = document.querySelector(".startCon");
-    startCon.classList.add("show");
-    startCon.classList.remove("hide");
+    let startDiv = document.querySelector(".startDiv");
+    startDiv.classList.add("show");
+    startDiv.classList.remove("hide");
+    
 }
 
 export {startContent};
